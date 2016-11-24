@@ -1,0 +1,328 @@
+body{
+background:url("../img/bg.png");
+}
+.main{
+width:960px;
+margin:0 auto;
+}
+
+.maMrn{
+width:900px;
+margin: 0px auto;
+}
+.kufizimT{
+padding-top: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   background-color:rgba(0, 0, 0, 0.3);
+}
+
+nav li {
+    float: left;
+    border-right:1px solid #1a1a1a;
+}
+
+/*li:last-child {
+    border-right: none;
+}*/
+
+nav li a {
+    display: block;
+    color: #bcbcbc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #262626;
+	color:#77a8c6;
+}
+
+nav .active {
+    background-color: #262626;
+	color:#77a8c6;
+}
+
+header{
+height:171px;
+width:100%;
+}
+
+header div{
+	width:100%;
+	height:35px;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+header img.dj {
+float:right;
+}
+
+.content{
+height:1620px;
+width:100%;
+background-color:rgba(0,0,0,0.3);
+color:#a4a4a4;
+font-size:14px;
+}
+
+div.slideri{
+width:100%;
+height:402px;
+background-color:#2a2a2a;
+}
+
+.ppi{
+margin-top:73px;
+}
+.ppi p{
+color:#b5b5b5;
+font-size:22px;
+padding-bottom:35px;
+
+}
+img.vi{
+width:100%;
+height:8px;
+}
+
+.kufizimT h2{
+width:100%;
+margin-top:41px;
+font-size:20px;
+padding-bottom:23px;
+color:#77a8c6;
+}
+
+.pmajt{
+width:580px;
+float:left;
+height:100%;
+}
+
+.txtpdj{
+width:240px;
+float:right;
+height:100%;
+}
+
+.w100{
+width:100%;
+height:125px;
+}
+
+.katerdiv{
+width:100%;
+height:150px;
+padding-bottom:50px;
+border-bottom:1px solid gray;
+}
+
+.pdtk{
+width:20%;
+margin-right:42px;
+text-align:center;
+float:left;
+
+}
+
+.katrori{
+height:130px;
+width:160px;
+background-color:#2a2a2a;
+float:left;
+margin-right: 20px;
+}
+
+#kvi{
+height:130px;
+padding-bottom:38px;
+}
+
+.lftc{
+width:100%;
+}
+
+.bashk{
+width:195px;
+margin-right:40px;
+float:left;
+}
+
+.bashk div{
+margin-top:13px;
+width:100%;
+    height: 45px;
+	border-bottom: 1px solid gray;
+}
+.bashk div.seKa{
+border-bottom: 0px solid gray;
+}
+
+.bashki{
+width:195px;
+margin-right:40px;
+float:left;
+}
+
+.bashki div{
+margin-top:13px;
+width:100%;
+    height: 45px;
+	border-bottom: 1px solid gray;
+}
+.bashki div.seKaky{
+border-bottom:0px solid gray;
+}
+
+.bashki div p{
+
+width:100%;
+
+}
+
+.bashk div img{
+
+width:15%;
+float:left;
+}
+
+.bashk div p{
+
+width:75%;
+float:right;
+}
+
+.weq1{
+float:left;
+margin-right:33px;
+}
+.weq2{
+float:right;
+}
+
+.hfooter{
+height:56px;
+width:960px;
+background-color:rgba(0,0,0,0.3);
+color:#a4a4a4;
+text-align:center;
+font-size:14px;
+margin-top:20px;
+}
+
+.hfooter p{
+padding-top:20px;
+}
+
+form.linh{
+line-height:25px;
+}
+
+form input[type="text"], form input[type="email"]{
+    width: 190px;
+    height: 20px;
+    margin-bottom: 15px;
+	background-color:#2a2a2a;
+	border:none;
+	color:white;
+}
+
+form textarea{
+    width: 190px;
+    height: 95px;
+    margin-bottom: 15px;
+	background-color:#2a2a2a;
+	border:none;
+	color:white;
+}
+
+form input[type="submit"],form input[type="button"]{
+    width: 90px;
+    height: 27px;
+	
+    margin-bottom: 15px;
+	background-color:#42677f;
+	border-radius:5px;
+	border:none;
+	color:white;
+}
+
+.btnSend{
+margin-top:10px;
+}
+/* style about contact etj */
+
+ .m1,  .m2,  .m3{
+	width:100%;
+	height: 125px;
+	margin-top:10px;
+}
+
+ .m1 img,  .m2 p{
+	float:left;
+}
+
+ .m1 p,  .m2 img{
+	float:right;
+}
+
+ .m1 p,  .m2 p{
+	width:75%;
+}
+
+ .m3 p.tpl,  .m3 p.tpr{
+	width:35%;
+}
+
+ .m3 p.tpl,  .m3 img{
+	float:left;
+	margin-right:5px;
+}
+
+ .m3 p.tpr{
+	float:right;
+}
+
+.gG, .ga, .ftiy{
+	width:100%;
+	    margin-bottom: 25px;
+}
+
+.gG img{
+	width:45%;
+}
+
+.ga img{
+	width:24%;
+}
+
+.ftiy img{
+	    width: 10%;
+    float: left;
+    margin-right: 100px;
+}
+
+.s1,  .s2,  .s3{
+	width:30%;
+	height: 100%;
+	margin-right: 25px;
+	
+}
+
+.s1, .s2, .s3{
+	float:left;
+	
+}
+
+.s1 h3, .s2 h3, .s3 h3{
+	color: gray;
+	
+}
